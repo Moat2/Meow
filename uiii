@@ -61,14 +61,14 @@ local themeStyles = {
         Background = Color3.fromRGB(76, 193, 3),
         Header = Color3.fromRGB(76, 193, 3),
         TextColor = Color3.fromRGB(255,255,255),
-        ElementColor = Color3.fromRGB(20, 20, 20)
+        ElementColor = Color3.fromRGB(76, 193, 3)
     },
     LightTheme = {
         SchemeColor = Color3.fromRGB(150, 150, 150),
         Background = Color3.fromRGB(255,255,255),
         Header = Color3.fromRGB(200, 200, 200),
         TextColor = Color3.fromRGB(0,0,0),
-        ElementColor = Color3.fromRGB(224, 224, 224)
+        ElementColor = Color3.fromRGB(76, 193, 3)
     },
     BloodTheme = {
         SchemeColor = Color3.fromRGB(227, 27, 27),
@@ -82,7 +82,7 @@ local themeStyles = {
         Background = Color3.fromRGB(76, 193, 3),
         Header = Color3.fromRGB(36, 28, 41),
         TextColor = Color3.fromRGB(255,255,255),
-        ElementColor = Color3.fromRGB(74, 58, 84)
+        ElementColor = Color3.fromRGB(76, 193, 3)
     },
     Ocean = {
         SchemeColor = Color3.fromRGB(86, 76, 251),
@@ -117,7 +117,7 @@ local themeStyles = {
         Background = Color3.fromRGB(76, 193, 3),
         Header = Color3.fromRGB(22, 29, 31),
         TextColor = Color3.fromRGB(255,255,255),
-        ElementColor = Color3.fromRGB(22, 29, 31)
+        ElementColor = Color3.fromRGB(76, 193, 3)
     }
 }
 local oldTheme = ""
