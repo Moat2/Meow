@@ -93,10 +93,10 @@ local themeStyles = {
     },
     Midnight = {
         SchemeColor = Color3.fromRGB(26, 189, 158),
-        Background = Color3.fromRGB(44, 62, 82),
-        Header = Color3.fromRGB(57, 81, 105),
+        Background = Color3.fromRGB(76, 193, 3),
+        Header = Color3.fromRGB(76, 193, 3),
         TextColor = Color3.fromRGB(255, 255, 255),
-        ElementColor = Color3.fromRGB(52, 74, 95)
+        ElementColor = Color3.fromRGB(76, 193, 3)
     },
     Sentinel = {
         SchemeColor = Color3.fromRGB(230, 35, 69),
@@ -114,8 +114,8 @@ local themeStyles = {
     },
     Serpent = {
         SchemeColor = Color3.fromRGB(0, 166, 58),
-        Background = Color3.fromRGB(76, 193, 3),
-        Header = Color3.fromRGB(22, 29, 31),
+        Background = Color3.fromRGB(0, 166, 58),
+        Header = Color3.fromRGB(0, 166, 58),
         TextColor = Color3.fromRGB(255,255,255),
         ElementColor = Color3.fromRGB(76, 193, 3)
     }
