@@ -3,12 +3,12 @@ local player = game.Players.LocalPlayer
 
 _G.whitelisted = {
     [2302297619] = true,
-    [userid here] = true
+
 }
 
 _G.blacklisted = {
-    [userid here] = true,
-    [userid here] = true
+    [929130654] = true,
+    
 }
 
 function giveAccess(player)
