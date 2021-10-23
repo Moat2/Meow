@@ -1,0 +1,31 @@
+local UIS = game:GetService("UserInputService")
+local player = game.Players.LocalPlayer
+
+_G.whitelisted = {
+    [2302297619] = true,
+    [userid here] = true
+}
+
+_G.blacklisted = {
+    [userid here] = true,
+    [userid here] = true
+}
+
+function giveAccess(player)
+    for i, v in next, _G.whitelisted do
+        if i == player.UserId then
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/Moat2/UI/main/Load"))()
+        end
+    end
+end
+giveAccess(player)
+
+function blacklist(player)
+    for i,v in next, _G.blacklisted do
+        if i == player.UserId then
+            -- kick script here or sum bullshit
+            break
+        end
+    end
+end
+blacklist(player)
