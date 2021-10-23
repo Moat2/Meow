@@ -50,14 +50,14 @@ end
 
 local themes = {
     SchemeColor = Color3.fromRGB(74, 99, 135),
-    Background = Color3.fromRGB(36, 37, 43),
+    Background = Color3.fromRGB(76, 193, 3),
     Header = Color3.fromRGB(76, 193, 3),
     TextColor = Color3.fromRGB(255,255,255),
     ElementColor = Color3.fromRGB(32, 32, 38)
 }
 local themeStyles = {
     DarkTheme = {
-        SchemeColor = Color3.fromRGB(64, 64, 64),
+        SchemeColor = Color3.fromRGB(76, 193, 3),
         Background = Color3.fromRGB(76, 193, 3),
         Header = Color3.fromRGB(76, 193, 3),
         TextColor = Color3.fromRGB(255,255,255),
@@ -106,14 +106,14 @@ local themeStyles = {
         ElementColor = Color3.fromRGB(24, 24, 24)
     },
     Synapse = {
-        SchemeColor = Color3.fromRGB(46, 48, 43),
+        SchemeColor = Color3.fromRGB(76, 193, 3),
         Background = Color3.fromRGB(76, 193, 3),
         Header = Color3.fromRGB(36, 38, 35),
         TextColor = Color3.fromRGB(152, 99, 53),
         ElementColor = Color3.fromRGB(24, 24, 24)
     },
     Serpent = {
-        SchemeColor = Color3.fromRGB(0, 166, 58),
+        SchemeColor = Color3.fromRGB(76, 193, 3),
         Background = Color3.fromRGB(0, 166, 58),
         Header = Color3.fromRGB(0, 166, 58),
         TextColor = Color3.fromRGB(255,255,255),
@@ -257,7 +257,7 @@ function Kavo.CreateLib(kavName, themeList)
 
     title.Name = "title"
     title.Parent = MainHeader
-    title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    title.BackgroundColor3 = Color3.fromRGB(76, 193, 3)
     title.BackgroundTransparency = 1.000
     title.BorderSizePixel = 0
     title.Position = UDim2.new(0.0171428565, 0, 0.344827592, 0)
