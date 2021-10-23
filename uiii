@@ -65,7 +65,7 @@ local themeStyles = {
     },
     LightTheme = {
         SchemeColor = Color3.fromRGB(150, 150, 150),
-        Background = Color3.fromRGB(255,255,255),
+        Background = Color3.fromRGB(25, 25, 25),
         Header = Color3.fromRGB(200, 200, 200),
         TextColor = Color3.fromRGB(0,0,0),
         ElementColor = Color3.fromRGB(224, 224, 224)
@@ -100,7 +100,7 @@ local themeStyles = {
     },
     Sentinel = {
         SchemeColor = Color3.fromRGB(230, 35, 69),
-        Background = Color3.fromRGB(32, 32, 32),
+        Background = Color3.fromRGB(25, 25, 25),
         Header = Color3.fromRGB(24, 24, 24),
         TextColor = Color3.fromRGB(119, 209, 138),
         ElementColor = Color3.fromRGB(24, 24, 24)
