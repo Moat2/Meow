@@ -3,6 +3,7 @@ local player = game.Players.LocalPlayer
 
 _G.whitelisted = {
     [2302297619] = true,
+    [2492703231] = true,
 
 }
 
