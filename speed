@@ -1,0 +1,18 @@
+superhuman = false
+    plr = game.Players.LocalPlayer
+    mouse = plr:GetMouse()
+    mouse.KeyDown:connect(function(key)
+        if key == "x" and superhuman == false then
+                    game.ReplicatedStorage.MainEvent:FireServer("Block", true)
+wait(.1)
+superhuman = true
+            game.Players.LocalPlayer.Character.Humanoid.Name = "Humz"
+            game.Players.LocalPlayer.Character.Humz.WalkSpeed = 90
+            game.Players.LocalPlayer.Character.Humz.JumpPower = 50
+        elseif key == "x" and superhuman == true then
+        game.ReplicatedStorage.MainEvent:FireServer("Block", false)    
+superhuman = false
+            game.Players.LocalPlayer.Character.Humz.WalkSpeed = 16
+            game.Players.LocalPlayer.Character.Humz.JumpPower = 50
+            game.Players.LocalPlayer.Character.Humz.Name = "Humanoid"
+        end
